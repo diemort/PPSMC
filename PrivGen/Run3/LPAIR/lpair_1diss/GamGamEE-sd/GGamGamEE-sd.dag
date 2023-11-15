@@ -1,3 +1,4 @@
+SCRIPT PRE Generator init.sh
 JOB Generator generator.sub
 JOB Splitter splitter.sub
 JOB MCDBToEDM MCDBToEDM.sub 
