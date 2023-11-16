@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # mapping arguments:
-$(EOSROOT) $(EOSAREA) $(PROCLABEL) $(A0W) $(ACW) $(EVTS) $(ProcId)
 eosroot=$1
 eosarea=$2
 tag=$3
