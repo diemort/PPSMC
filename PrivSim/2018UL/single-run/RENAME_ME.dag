@@ -18,25 +18,25 @@ SCRIPT POST LHE common/sendmail.sh $JOB
 JOB Merge sub/MERGE.sub
 SCRIPT POST Merge common/sendmail.sh $JOB
 
-JOB pLHE sub/pLHE.sub
+JOB pLHE sub/steps.sub
 SCRIPT POST pLHE common/sendmail.sh $JOB
 
-JOB GEN sub/GEN.sub
+JOB GEN sub/steps.sub
 SCRIPT POST GEN common/sendmail.sh $JOB
 
-JOB SIM sub/SIM.sub
+JOB SIM sub/steps.sub
 SCRIPT POST SIM common/sendmail.sh $JOB
 
-JOB DR sub/DR.sub
+JOB DR sub/steps.sub
 SCRIPT POST DR common/sendmail.sh $JOB
 
-JOB HLT sub/HLT.sub
+JOB HLT sub/steps.sub
 SCRIPT POST HLT common/sendmail.sh $JOB
 
-JOB RECO sub/RECO.sub
+JOB RECO sub/steps.sub
 SCRIPT POST RECO common/sendmail.sh $JOB
 
-JOB MINI sub/MINI.sub
+JOB MINI sub/steps.sub
 SCRIPT POST MINI common/sendmail.sh $JOB
 
 JOB CLEANUP sub/CLEAN.sub
