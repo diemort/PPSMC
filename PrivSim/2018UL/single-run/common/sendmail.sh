@@ -6,7 +6,7 @@ TMPDIR=/tmp/
 
 job=$( basename "`ls *.dag`" .dag )
 
-mail -s "${job} :: step ${step} FINISHED" $email <<< "STEP \
+mail -s "step ${step} FINISHED" $email <<< "STEP \
 ${step} HAS FINISHED AND FILES CAN BE FOUND AT \
 YOUR OUTPUT AREA."
 
